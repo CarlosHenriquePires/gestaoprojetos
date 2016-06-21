@@ -20,6 +20,7 @@ participante3.save()
 participante4.save()
 participante5.save()
 participante6.save()
+
 #Criando os projetos
 projetos1=Projetos(titulo="Lógica de Programação com Scratch", dataInicio="2016-06-21",
                    dataTermino="2016-07-21",justificativa="Motivar os jovens a iniciar o estudo de programação",
@@ -33,6 +34,7 @@ projetos3 = Projetos(titulo="Robótica: do básico ao avançado", dataInicio="20
                      dataTermino="2016-12-14", justificativa="Ajudar crianças a desenvolver de maneira lúdica a criatividade",
                      metodologia="XXX", resultados="Reciclagem")
 projetos3.save()
+
 # Inserindo os participantes do projeto
 projetos1.participantes.add(participante1,participante2,participante3)
 projetos2.participantes.add(participante4,participante5,participante3)
