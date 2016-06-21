@@ -25,4 +25,8 @@ projetos1=Projetos(titulo="Lógica de Programação com Scratch",dataInicio="201
                    metodologia="XXX",resultados="Criar artigos")
 projetos1.save()
 
-atividades1=Atividades(descricao="Visita à Escola",dataInicio="2016-06-21",dataTermino="2016-06-22",)
+atividades1=Atividades(descricao="Visita à Escola",dataInicio="2016-06-21",dataTermino="2016-06-22",custos=1,projetos=projetos1)
+
+acompanhamento1=Acompanhamento(descricao="Manutenção dos Laboratórios",data="2016-06-22",atividades=atividades1)
+
+pp1=ParticipantesProjetos(projeto=projetos1,participantes=participante1)

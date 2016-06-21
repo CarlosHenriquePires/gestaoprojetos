@@ -14,7 +14,7 @@ class Projetos(models.Model):
     justificativa = models.CharField("Justificativa", max_length=500)
     metodologia = models.CharField("Metodologia", max_length=800)
     resultados = models.CharField("Resultados Esperados", max_length=500)
-    participantes = models.ManyToManyField(Participantes)
+    participantes = models.ManyToManyField(Participantes,through="ParticipantesProjetos")
 
 class Atividades(models.Model):
     descricao = models.CharField("Descrição", max_length=100)
@@ -27,4 +27,8 @@ class Acompanhamento(models.Model):
     descricao = models.CharField("Descrição", max_length=100)
     data = models.DateField("Data", auto_now_add=True)
     atividades = models.ForeignKey(Atividades,on_delete=models.PROTECT,verbose_name="Atividades")
+
+class ParticipantesProjetos(models.Model):
+        projeto = models.ForeignKey(Projetos, on_delete=models.PROTECT)
+        participantes = models.ForeignKey(Participantes, on_delete=models.PROTECT)
 
