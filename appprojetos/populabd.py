@@ -1,4 +1,3 @@
-
 from appprojetos.models import *
 
 # Inserindo dados no banco.
@@ -21,9 +20,9 @@ participante5.save()
 
 # Inserindo Projetos
 
-projeto1=Projetos(titulo="Scratch",dataInicio="2016-05-28",dataTermino="2016-06-03",justificativa="Ensino de lógica para jovens",metodologia="minicursos",resultados="dados coletados",participates="Matheus, Luan e Carlos")
+projeto1=Projetos(titulo="Scratch",dataInicio="2016-05-28",dataTermino="2016-06-03",justificativa="Ensino de lógica para jovens",metodologia="minicursos",resultados="dados coletados",participates=participante1,participante2,participante3)
 projeto1.save
-projeto2=Projetos(titulo="Meio Ambinte e Cidadania",dataInicio="2016-08-18",dataTermino="2016-11-12",justificativa="Importancia do meio ambiente",metodologia="palestras",resultados="concientização",participates="Galego e Crau")
+projeto2=Projetos(titulo="Meio Ambinte e Cidadania",dataInicio="2016-08-18",dataTermino="2016-11-12",justificativa="Importancia do meio ambiente",metodologia="palestras",resultados="concientização",participates=participante4,participante5)
 projeto2.save
 
 # Inserindo as Atividades
