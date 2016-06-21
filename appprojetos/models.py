@@ -4,6 +4,7 @@ from django.db import models
 
 class Participantes(models.Model):
     nome = models.CharField("Nome",max_length=255)
+    matricula = models.CharField("Matrícula",max_length=14,unique=True)
     descricao = models.CharField("Descrição",max_length=100)
 
 class Projetos(models.Model):
