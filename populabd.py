@@ -47,6 +47,8 @@ atividades2=Atividades(descricao="Prepatrando o Tatame",dataInicio="2016-08-21",
 atividades2.save()
 atividades3=Atividades(descricao="Separando o Material",dataInicio="2016-09-21",dataTermino="2016-09-22",custos=1,projetos=projetos3)
 atividades3.save()
+atividades4=Atividades(descricao="Aplicação do minicurso",dataInicio="2016-09-21",dataTermino="2016-09-22",custos=3,projetos=projetos1)
+atividades4.save()
 
 # Criando o acompanhamento das atividades
 acompanhamento1=Acompanhamento(descricao="Manutenção dos Laboratórios",data="2016-06-22",atividades=atividades1)

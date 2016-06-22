@@ -21,3 +21,16 @@ for participantes in Participantes.objects.filter(nome__startswith='A'):
     print(participantes.nome)
 
 # Listar o custo total de cada projeto.
+
+
+for projeto in Projetos.objects.all():
+    lista = []
+    for atividades in projeto.atividades_set.iterator():
+        lista.append(atividades.custos)
+    print('Projeto: ',projeto.titulo,  '\nCustos: ', sum(lista))
+
+
+'''
+        lista.append(atividade.custos)
+            print('Projeto: ',projeto.titulo,  '\nValor Total: ', sum(lista))
+'''

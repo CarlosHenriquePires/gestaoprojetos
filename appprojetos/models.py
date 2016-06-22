@@ -30,6 +30,7 @@ class Atividades(models.Model):
     custos = models.DecimalField(max_digits=4,decimal_places=2,verbose_name="Custos")
     projetos = models.ForeignKey(Projetos, on_delete=models.PROTECT,verbose_name="Projetos")
 
+
 class Acompanhamento(models.Model):
     descricao = models.CharField("Descrição", max_length=100)
     data = models.DateField("Data", auto_now_add=True)
