@@ -1,4 +1,4 @@
-from appprojetos import *
+from appprojetos.models import *
 
 # Listar todos os projetos com seus respectivos membros (Valor 0,2).
 print()
