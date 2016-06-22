@@ -1,4 +1,3 @@
-
 from appprojetos.models import *
 
 # Inserindo dados no banco.

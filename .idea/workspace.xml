@@ -4,7 +4,6 @@
     <list default="true" id="af883287-64ab-4fd4-baf0-b3a7a62165b8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appprojetos/consultas.py" afterPath="$PROJECT_DIR$/appprojetos/consultas.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appprojetos/models.py" afterPath="$PROJECT_DIR$/appprojetos/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/populabd.py" afterPath="$PROJECT_DIR$/populabd.py" />
     </list>
     <ignored path="gestaoprojetos.iws" />
@@ -43,36 +42,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appprojetos/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="populabd.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/populabd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="consultas.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appprojetos/consultas.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/055947f9-479a-4776-a650-29ea40fab673/console.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,10 +52,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="consultas.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appprojetos/consultas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appprojetos/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="bd.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/2016.1/projetovendas/appvendas/bd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="1122">
               <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
@@ -95,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gestaoprojetos/settings.py">
+      <file leaf-file-name="populabd.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/populabd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-219">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="264">
+              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -125,8 +114,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/96dd44b9-e98b-44ea-9e6a-ad452aa4b566/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/055947f9-479a-4776-a650-29ea40fab673/console.sql" />
         <option value="$PROJECT_DIR$/appprojetos/models.py" />
-        <option value="$PROJECT_DIR$/appprojetos/consultas.py" />
         <option value="$PROJECT_DIR$/populabd.py" />
+        <option value="$PROJECT_DIR$/appprojetos/consultas.py" />
       </list>
     </option>
   </component>
@@ -220,39 +209,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="appprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestaoprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appprojetos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -670,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1466563363872</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Quase pronto 2!">
+      <created>1466566831756</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1466566831756</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -718,7 +682,8 @@
     <MESSAGE value="Inserindo mais eventos no banco." />
     <MESSAGE value="Commit para correção de erros." />
     <MESSAGE value="Quase pronto!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quase pronto!" />
+    <MESSAGE value="Quase pronto 2!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quase pronto 2!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -799,16 +764,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appprojetos/populabd.py" />
-    <entry file="file://$USER_HOME$/2016.1/projetovendas/appvendas/bd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d240a78f-aa59-4708-8267-74e3c7c91bc7/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -849,18 +804,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/2016.1/projetovendas/appvendas/bd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appprojetos/consultas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="88">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/populabd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="39" column="70" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+        <state relative-caret-position="264">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding />
         </state>
       </provider>
