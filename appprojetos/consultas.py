@@ -11,7 +11,7 @@ for projeto in Projetos.objects.all():
 
 # Listar todas as atividades que tenham sido executadas no mês de maio de 2015.
 
-for atividade in Atividades.objects.filter(dataInicio__year=2015,dataInicio__month=5).distinct():
+for atividade in Atividades.objects.filter(dataInicio__year=2015,dataInicio__month=5):
     print(atividade.descricao)
 
 
